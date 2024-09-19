@@ -1,0 +1,96 @@
+
+/* Form.css */
+
+/* General form container styles */
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Form title styles */
+.form-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Label styles */
+.form-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Input and textarea styles */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+  margin-bottom: 16px;
+  font-size: 1em;
+}
+
+/* Styles for file inputs */
+.form-container input[type="file"] {
+  border: none;
+  margin-bottom: 16px;
+}
+
+/* Textarea specific styles */
+.form-container textarea {
+  resize: vertical; /* Allows resizing only vertically */
+  height: 100px;
+}
+
+/* Required fields indication */
+.form-container input[required],
+.form-container textarea[required] {
+  border-color: #f00;
+}
+
+/* Button styles */
+.form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effects */
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Select dropdown styles */
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 1em;
+}
+
+/* Error messages */
+.form-container .error {
+  color: #f00;
+  font-size: 0.875em;
+  margin-top: -10px;
+  margin-bottom: 16px;
+}
